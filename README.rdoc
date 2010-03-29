@@ -1,0 +1,20 @@
+== DESCRIPTION
+
+The BlackBerry JDE API does not provide API to create ZIP archives.
+ZipPacker has been created to partially solve this issue. 
+With ZipPacker it's possible to pack a bunch of files/directories into a one ZIP archive format file.
+Please, note, ZipPacker is a partial solution because it uses zero compression only.
+
+=== Usage
+
+The ZipPacker API is pretty straightforward:
+
+  ZipPacker.pack("file:///SDCard/dir_to_pack/", "file:///SDCard/packed.zip")
+
+Here we've just packed the contents of "file:///SDCard/dir_to_pack/" directory to the "file:///SDCard/packed.zip" file.
+
+
+== EXAMPLES
+
+The source code contains ZipPackerSampleApplication as a sample application.
+The application creates a simple file structure on SDCard and then packs it.

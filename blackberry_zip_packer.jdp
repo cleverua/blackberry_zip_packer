@@ -1,0 +1,53 @@
+## RIM Java Development Environment
+# RIM Project file
+#
+# This file is generated and managed by BlackBerry developer tools.
+# It SHOULD NOT BE modified manually.
+#
+AddOn=0
+AlwaysBuild=0
+[AlxImports
+]
+AutoRestart=0
+[ClassProtection
+]
+[CustomBuildFiles
+]
+[CustomBuildRules
+]
+[DefFiles
+]
+[DependsOn
+]
+ExcludeFromBuildAll=0
+[Files
+src\com\cleverua\bb\example\PlaceholderScreen.java
+src\com\cleverua\bb\example\ZipPackerSampleApplication.java
+src\com\cleverua\bb\utils\IOUtils.java
+src\com\cleverua\bb\utils\zip\ZipArchive.java
+src\com\cleverua\bb\utils\zip\ZipArchiveEntry.java
+src\com\cleverua\bb\utils\zip\ZipPacker.java
+]
+HaveAlxImports=0
+HaveDefs=0
+HaveImports=0
+[Icons
+]
+[ImplicitRules
+]
+[Imports
+]
+Listing=0
+Options=-quiet 
+OutputFileName=zip_packer_demo
+[PackageProtection
+]
+RibbonPosition=0
+[RolloverIcons
+]
+RunOnStartup=0
+StartupTier=7
+SystemModule=0
+Title=Zip Packer Demo
+Type=0
+Vendor=CleverUA
